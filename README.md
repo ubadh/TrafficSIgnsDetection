@@ -11,16 +11,16 @@ Carrying out accurate and efficient Traffic Signs recognition is becoming a key 
 
 ## Table of contents:
 
-- [Requirements]()
-  - [Homebrew]()
-  - [OpenCV]()
-- [How to run the program]()
-- [Algorithms and Techniques]()
-  - [Color exctraction]()
-  - []()
-  - []()
-  - []()
-  - []()
+- [Requirements](#requirements)
+  - [Homebrew](#homebrew)
+  - [OpenCV](#opencv)
+- [How to run the program](#how-to-run-the-program)
+- [Algorithms and Techniques](#algorithms-and-techniques)
+  - [Color Exctraction](#color-exctraction)
+  - [Haar Cascades](#haar-cascades)
+  - [Traffic Signs Classification]()
+  - [Digit Training]()
+  - [Speed Limit Recognition]()
   - []()
 - []()
 - []()
@@ -97,7 +97,7 @@ All the points in the same cluster are saved in a vector, and then the formed bo
 
 ### Haar Cascades:
 
-For better results, training my own Haar Cascades seemed to be necessary. To do that, there are a few steps to follow.
+For better results, training my own Haar Cascades seems to be necessary. To do that, there are a few steps to follow.
 
 In fact, to build a proper dataset, both a set of positive samples and negative samples were needed (with negatives being at least double the number of positives). Alongside the sample, a list of all the names of the samples is required. This can easily be done using the command:
 
@@ -115,7 +115,7 @@ The same steps were followed to get multiple Haar Cascades for different categor
 
 ### Traffic Signs classification
 
-
+Using the pre-trained Haar Cascades, the program classfies the traffic signs into their corresponding categories.
 
 
 
