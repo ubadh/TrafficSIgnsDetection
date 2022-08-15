@@ -19,11 +19,12 @@ Carrying out accurate and efficient Traffic Signs recognition is becoming a key 
   - [Color Extraction](#color-extraction)
   - [Haar Cascades](#haar-cascades)
   - [Traffic Signs Classification]()
-  - [Digit Training]()
-  - [Speed Limit Recognition]()
-- []()
-- []()
-- []()
+  - [Digit Training](#digit-training)
+  - [Speed Limit Recognition](#speed-limit-recognition)
+  - [Visualization](#visualization)
+- [Performance](#performance)
+- [Improvements](#improvements)
+- [References](#references)
 
 ## Requirements:
 
@@ -199,11 +200,32 @@ for (int i=0; i<contoursPoints.size(); i=hierarchy[i][0]){
     putText(res, name, Point(r.x,r.y+r.height), 0, 1, Scalar(0, 255, 0), 2, LINE_8);
 }
 ```
+### Visualization:
+
+Regarding the visualization, the steps are shown in the terminal, alongside the rectangles (ROI) on the image.
 
 
+## Performance:
 
+By running the algorithm over a couple of images (both positive and negative), I concluded the following:
 
+- The Traffic Signs Recognition system overall has around 92% accuracy.
+- After running the OCR engine (digit recognition) on over a hundred images, it appears that it has over 98% accuracy.
 
+## Improvements:
+
+- Train more Haar Cascades on other traffic signs types and cover some from other countries (training cascades takes time).
+- Integrate this project with my previous Real Time Road Lane Detection system (both done using OpenCV and C++).
+
+## References:
+
+P. Shopa, N. Sumitha and P. S. K. Patra, "Traffic sign detection and recognition using OpenCV," International Conference on Information Communication and Embedded Systems (ICICES2014), 2014, pp. 1-6, doi: 10.1109/ICICES.2014.7033810.
+
+Yamada K., Aryuanto and Limpraptono F. Y., “Intelligent machine vision system for traffic sign recognition”, November 2008.
+
+Escalera A. D. L., Armingol J. M., and Mata M., “Traffic sign recognition and analysis for intelligent vehicles” Image and Vision Computing, vol. 21, no. 3, pp. 247-258, 2002.
+
+Fang C. Y., Fuh C. S., and Chen S. W., “Detection and tracking of road signs” Pattern Recognition and Image Analysis, vol. 11, no. 2, pp.  304-308, 2001.
 
 
 
