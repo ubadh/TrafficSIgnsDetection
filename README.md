@@ -18,7 +18,7 @@ Carrying out accurate and efficient Traffic Signs recognition is becoming a key 
 - [Algorithms and Techniques](#algorithms-and-techniques)
   - [Color Extraction](#color-extraction)
   - [Haar Cascades](#haar-cascades)
-  - [Traffic Signs Classification]()
+  - [Traffic Signs Classification](#traffic-signs-classification)
   - [Digit Training](#digit-training)
   - [Speed Limit Recognition](#speed-limit-recognition)
   - [Visualization](#visualization)
