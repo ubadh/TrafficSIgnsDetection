@@ -85,6 +85,10 @@ To gather all the red pixels into regions, the program uses a clustering algorit
 
 For more information regarding the Partition clustering, check [here](https://docs.opencv.org/2.4/modules/core/doc/clustering.html#partition).
 
+Original Sign          |  Post-Extraction
+:-------------------------:|:-------------------------:
+<img src="documentation/original.png" width="500" > |  <img src="documentation/contourextraction.png" width="500" >
+
 ```cpp
 // Clustering algorithm: Partition
 int tmp = radiusTolerance * radiusTolerance;
@@ -143,6 +147,8 @@ To recognize the speed limit stated on the Speed Limit signs, training our machi
 The training is done by first loading the image that contains all the digits, then selecting the digits by contour finding and applying constraints on the area and heights of numbers to avoid false detections. A rectangle is drwan around the digit to help the user see where the model is, and waits for him to click on the corresponding digit, if it is a false detection the user will then click on space. Once the corresponding digit key is pressed, it saves 150 pixel values in an array and the manually entered digit in a second array following the same order. Those arrays are then saved in txt files to avoid redoing the training everytime.
 
 Right after that, the txt files are loaded, the instance of the classifier K-Nearest Neighbor is created, and then used for training the model.
+
+<img src="documentation/digittraining.png" width="500" >
 
 ``` c++
 // Follow the hierarchy order
