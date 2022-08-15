@@ -17,8 +17,8 @@
 using namespace std;
 using namespace cv;
 
-String speed_signs_cascade = "cascades/Speedlimit_HAAR_ 15Stages.xml";
-String warning_signs_cascade = "cascades/yieldsign12Stages.xml";
+String speed_signs_cascade = "cascades/speedlimit.xml";
+String warning_signs_cascade = "cascades/warning.xml";
 
 CascadeClassifier speed_limit_cascade;
 CascadeClassifier warning_cascade;
