@@ -9,6 +9,14 @@ Carrying out accurate and efficient Traffic Signs recognition is becoming a key 
 
 ## Demo:
 
+Original Sign          |  Digit Training
+:-------------------------:|:-------------------------:
+<img src="documentation/original.png" width="500" > |  <img src="documentation/digittraining.png" width="500" >
+
+Post-Extraction        |  Terminal
+:-------------------------:|:-------------------------:
+<img src="documentation/contourextraction.png" width="500" > |  <img src="documentation/terminal.png" width="500" >
+
 ## Table of contents:
 
 - [Requirements](#requirements)
