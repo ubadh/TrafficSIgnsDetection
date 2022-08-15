@@ -233,13 +233,13 @@ By running the algorithm over a couple of images (both positive and negative), I
 
 ## References:
 
-P. Shopa, N. Sumitha and P. S. K. Patra, "Traffic sign detection and recognition using OpenCV," International Conference on Information Communication and Embedded Systems (ICICES2014), 2014, pp. 1-6, doi: 10.1109/ICICES.2014.7033810.
+- P. Shopa, N. Sumitha and P. S. K. Patra, "Traffic sign detection and recognition using OpenCV," International Conference on Information Communication and Embedded Systems (ICICES2014), 2014, pp. 1-6, doi: 10.1109/ICICES.2014.7033810.
 
-Yamada K., Aryuanto and Limpraptono F. Y., “Intelligent machine vision system for traffic sign recognition”, November 2008.
+- Yamada K., Aryuanto and Limpraptono F. Y., “Intelligent machine vision system for traffic sign recognition”, November 2008.
 
-Escalera A. D. L., Armingol J. M., and Mata M., “Traffic sign recognition and analysis for intelligent vehicles” Image and Vision Computing, vol. 21, no. 3, pp. 247-258, 2002.
+- Escalera A. D. L., Armingol J. M., and Mata M., “Traffic sign recognition and analysis for intelligent vehicles” Image and Vision Computing, vol. 21, no. 3, pp. 247-258, 2002.
 
-Fang C. Y., Fuh C. S., and Chen S. W., “Detection and tracking of road signs” Pattern Recognition and Image Analysis, vol. 11, no. 2, pp.  304-308, 2001.
+- Fang C. Y., Fuh C. S., and Chen S. W., “Detection and tracking of road signs” Pattern Recognition and Image Analysis, vol. 11, no. 2, pp.  304-308, 2001.
 
 
 
